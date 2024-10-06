@@ -1,8 +1,8 @@
 export * from './NetworkObject';
-export * as tcp from './tcp';
-export * as kcp from './kcp';
-export * as ws from './ws';
-export * as http from './http';
-export * as grpc from './grpc';
-export * as httpupgrade from './httpupgrade';
-export * as splithttp from './splithttp';
+export * as Tcp from './tcp';
+export * as Kcp from './kcp';
+export * as Ws from './ws';
+export * as Http from './http';
+export * as Grpc from './grpc';
+export * as HttpUpgrade from './httpupgrade';
+export * as SplitHttp from './splithttp';
