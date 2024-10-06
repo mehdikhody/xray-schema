@@ -1,3 +1,3 @@
-export { SystemPolicyObject } from './SystemPolicyObject';
-export { LevelPolicyObject } from './LevelPolicyObject';
-export { PolicyObject } from './PolicyObject';
+export * from './SystemPolicyObject';
+export * from './LevelPolicyObject';
+export * from './PolicyObject';

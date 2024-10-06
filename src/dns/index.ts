@@ -1,2 +1,2 @@
-export { DnsObject } from './DnsObject';
-export { DnsServerObject } from './DnsServerObject';
+export * from './DnsObject';
+export * from './DnsServerObject';

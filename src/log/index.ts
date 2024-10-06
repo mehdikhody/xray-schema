@@ -1,1 +1,1 @@
-export { LogObject } from './LogObject';
+export * from './LogObject';

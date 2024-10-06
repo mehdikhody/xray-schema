@@ -1,1 +1,1 @@
-export { ApiObject } from './ApiObject';
+export * from './ApiObject';
