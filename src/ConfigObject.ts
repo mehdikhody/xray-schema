@@ -4,7 +4,8 @@ import { ApiObject } from './api';
 import { DnsObject } from './dns';
 import { RoutingObject } from './routing';
 import { PolicyObject } from './policy';
-import { InboundObject } from './inbound';
+import { InboundObject } from './inbounds';
+import { OutboundObject } from './outbounds';
 import { StatsObject } from './stats';
 import { ReverseObject } from './reverse';
 import { FakeDNSObject } from './fakedns';
@@ -20,6 +21,7 @@ export const ConfigObject = z.object({
     routing: RoutingObject.optional(),
     policy: PolicyObject.optional(),
     inbounds: z.array(InboundObject).optional(),
+    outbounds: z.array(OutboundObject).optional(),
     transport: TransportObject.optional(),
     stats: StatsObject.optional(),
     reverse: ReverseObject.optional(),

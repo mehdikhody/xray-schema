@@ -5,6 +5,7 @@ export * as Routing from './routing';
 export * as Policy from './policy';
 export * as Features from './features';
 export * as Inbounds from './inbounds';
+export * as Outbounds from './outbounds';
 export * as Transport from './transport';
 export * as Stats from './stats';
 export * as Reverse from './reverse';
