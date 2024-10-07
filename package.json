@@ -11,6 +11,7 @@
         "url": "https://github.com/mehdikhody"
     },
     "scripts": {
+        "prepublish": "npm run build",
         "build": "tsc",
         "test": "vitest",
         "lint": "eslint . --ext .ts",
