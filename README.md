@@ -34,12 +34,12 @@ You can also use the types defined in `xray-zod` for type safety:
 ```typescript
 import type * as Xray from 'xray-zod';
 
-const log_config: Xray.Log.LogObject = {
+const log_config: Xray.LogObject = {
     loglevel: 'info',
     access: './access.log',
 };
 
-const api_config: Xray.Api.ApiObject = {
+const api_config: Xray.ApiObject = {
     services: ['LoggerService', 'StatsService'],
     tag: 'api',
 };
