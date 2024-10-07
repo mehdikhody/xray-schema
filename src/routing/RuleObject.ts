@@ -7,7 +7,7 @@ export const RuleObject = z.object({
     ip: z.array(z.string()).optional(),
     port: z.union([z.number(), z.string()]).optional(),
     sourcePort: z.union([z.number(), z.string()]).optional(),
-    network: z.enum(['tcp', 'udp', 'tcp,udp']),
+    network: z.enum(['tcp', 'udp', 'tcp,udp']).optional(),
     source: z.array(z.string()).optional(),
     user: z.array(z.string()).optional(),
     inboundTag: z.array(z.string()).optional(),

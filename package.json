@@ -28,7 +28,7 @@
         "typescript": "^5.4.4",
         "vitest": "^1.4.0"
     },
-    "dependencies": {
+    "peerDependencies": {
         "zod": "^3.22.4"
     },
     "repository": {

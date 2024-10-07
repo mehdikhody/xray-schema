@@ -16,7 +16,7 @@ import { OutboundWireguardObject } from './wireguard';
 
 export const OutboundObject = z
     .object({
-        sendThrough: z.string(),
+        sendThrough: z.string().optional(),
         tag: z.string(),
         streamSettings: StreamSettingsObject.optional(),
         proxySettings: ProxySettingsObject.optional(),
