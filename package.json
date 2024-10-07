@@ -1,6 +1,6 @@
 {
-    "name": "xray-schema",
-    "description": "xray configuration schema",
+    "name": "xray-zod",
+    "description": "xray configuration with zod schema",
     "version": "0.0.1",
     "license": "MIT",
     "main": "./dist/index.js",
