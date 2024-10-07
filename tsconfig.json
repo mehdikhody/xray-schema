@@ -10,6 +10,7 @@
         "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
         "strictNullChecks": true,
+        "declaration": true,
         "strict": false,
         "allowJs": true,
         "baseUrl": ".",

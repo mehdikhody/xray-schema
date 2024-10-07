@@ -3,14 +3,15 @@
     "description": "xray configuration with zod schema",
     "version": "0.0.1",
     "license": "MIT",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
+    "main": "./build/index.js",
+    "typings": "./build/index.d.ts",
     "author": {
         "email": "khodayari.khoram@gmail.com",
         "name": "Mehdi Khodayari",
         "url": "https://github.com/mehdikhody"
     },
     "scripts": {
+        "build": "tsc",
         "test": "vitest",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write ."
