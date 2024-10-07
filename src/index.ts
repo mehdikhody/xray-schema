@@ -3,6 +3,8 @@ export * as Api from './api';
 export * as Dns from './dns';
 export * as Routing from './routing';
 export * as Policy from './policy';
+export * as Features from './features';
+export * as Inbound from './inbound';
 export * as Transport from './transport';
 export * as Stats from './stats';
 export * as Reverse from './reverse';
