@@ -1,5 +1,5 @@
 {
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "tests/**/*"],
     "exclude": ["node_modules", "build"],
     "compilerOptions": {
         "module": "ESNext",
@@ -7,13 +7,12 @@
         "moduleResolution": "Node",
         "lib": ["ESNext"],
         "esModuleInterop": true,
-        "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
-        "strictNullChecks": true,
         "declaration": true,
-        "strict": false,
-        "allowJs": true,
+        "strict": true,
         "baseUrl": ".",
-        "outDir": "build"
+        "outDir": "build",
+        "paths": {
+            "xray-zod": ["./src/index.ts"]
+        }
     }
 }
